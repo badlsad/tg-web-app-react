@@ -1,0 +1,23 @@
+.coffeeItems {
+  padding: 0 20px;
+  background: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+.coffeeItems_category {
+  margin-bottom: 10px;
+}
+
+.coffeeItems_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.coffeeItem {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
